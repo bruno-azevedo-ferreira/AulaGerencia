@@ -1,0 +1,72 @@
+[ workPlace ]
+[ unstage   ]
+[ repo      ]
+
+Commandos
+
+todo comando vir primeiro GIT
+
+git init "nomeDoProjeto" = iniciar um repositorio (cria uma pasta e o repositorio)
+
+entrar na pasta CD "nomeDaPasta"
+
+ls = mostrar todos os arquivos e pastas
+
+git status = informacoes sobre repo
+
+git = mostrar manual
+
+git config
+
+git help
+
+git add "nomeDoArquivo" = incluir arquivo para espera
+
+git add *.* = incluir todos os arquivos para espera
+
+git add *.html = incluir todos os arquivos com extensao .html para espera
+
+git commit -m "Mensagem" = criar "etiquetas" ou marcações ( está no repositorio agora )
+
+git log = ver o log do repositorio
+
+git commit -a -m "Mensagem" = Adicionar e comitar na mesma linha faz o add e o commit
+
+Criar um arquivo TXT   .gitignore = o que estiver dentro do arquivo Nome dos Arquivos para ser Ignorado ex:
+.gitignore
+notas.txt
+
+git checkout = mostra uma lista 
+
+git checkout "nomeDoArquivoDeletado"  = recupera um arquivog
+
+git commit -a -m "Messagem" =  Faz o commit apos excluir o arquivo
+
+Ao excluir um arquivo se por acaso ele for excluido acidentalmente
+
+git log --pretty=oneline = mostrar os log em uma linha
+
+git tag = mostrar as marcação
+
+git tag -a(usar uma assinatura) v1.0("Nome") "cahve" -m("Mensagem") = criar uma tag ou marcação
+
+git show "nomeDaVersao" = mostrar o que foi feito no git que tem marcação
+
+git show = mostra o que todas as marcação e oque foi feito
+
+git checkout "nomeDaTag" = substituir o seu repositorio para uma outra versão. ex> git checkout v0.0 (não muda o repositorio de verdade, vc usa um branch com o comando git  checkout master, vc volta para versão master
+
+git checkout master = volta para versão master, saindo da tag de marcação
+
+git branch "Nome" = criar um branch	.ex git branch Nfe
+
+git checkout "nomeDaBranch" = usa uma branch .ex git checkout Nfe
+
+Para juntar o Branch com o Master , vc deve estar no destino que no caso seria o Master, se vc quiser juntar o Master com o Branch deverá estar no Branch... usa 
+git merge "NomeDoBranch que queremos trazer" .ex git merge Nfe para juntar no Master
+
+git branch -d "nome" = apagar um branch .ex git branch -d Nfe
+
+git checkout  -b "nomeDoBranch" = cria o branch e ja altera para ele
+
+Quando altera na mesma linha do mesmo arquivo, o merge não vai conseguir concatenar, então ao abrir o arquivo vc tera que modificar e Apagar os comentarios.
